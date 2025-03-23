@@ -3,8 +3,8 @@ namespace DI2
     public class Player : MonoBehaviour 
     {
         [SerializeField] private InputType inputType;
+        [SerializeField] private Rigidbody rb;
         private PlayerMover PlayerMover;
-
 
         void Start()
         {
